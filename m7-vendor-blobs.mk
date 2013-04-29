@@ -19,6 +19,11 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so
 
 PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/proprietary/etc/snd_soc_msm/snd_soc_msm:system/etc/snd_soc_msm/snd_soc_msm \
+    $(LOCAL_PATH)/proprietary/etc/snd_soc_msm/snd_soc_msm_2x:system/etc/snd_soc_msm/snd_soc_msm_2x \
+    $(LOCAL_PATH)/proprietary/etc/snd_soc_msm/snd_soc_msm_2x_Fusion3:system/etc/snd_soc_msm/snd_soc_msm_2x_Fusion3 \
+    $(LOCAL_PATH)/proprietary/etc/snd_soc_msm/snd_soc_msm_2x_Fusion3_DMIC:system/etc/snd_soc_msm/snd_soc_msm_2x_Fusion3_DMIC \
+    $(LOCAL_PATH)/proprietary/etc/snd_soc_msm/snd_soc_msm_Sitar:system/etc/snd_soc_msm/snd_soc_msm_Sitar \
     $(LOCAL_PATH)/proprietary/bin/adaptive:system/bin/adaptive \
     $(LOCAL_PATH)/proprietary/bin/akmd:system/bin/akmd \
     $(LOCAL_PATH)/proprietary/bin/bluetoothd:system/bin/bluetoothd \
